@@ -18,3 +18,6 @@ print(evenNumber)
 # using list comprehension
 evenNumber = [x for x in range(0, 501, 2)]
 print(evenNumber)
+
+evenNumber = [y for y in range(0, 5001) if y % 2 ==0]
+print(evenNumber)
