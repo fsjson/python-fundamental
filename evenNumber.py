@@ -14,3 +14,7 @@ for n in range(0, 501):
   if n % 2 == 0: # Setiap nilai n yang habis dibagi 2 akan ditambahkan ke dalam list evenNumber. Setelah seluruh perulangan selesai, isi list evenNumber kemudian dicetak.
     evenNumber.append(n)
 print(evenNumber)
+
+# using list comprehension
+evenNumber = [x for x in range(0, 501, 2)]
+print(evenNumber)
